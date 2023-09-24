@@ -13,7 +13,7 @@
 <body id="body">
     <!-- header start -->
         <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary shadow" id="mainNavbar">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary shadow fixed-top" id="mainNavbar">
                 <div class="container">
                     <a class="navbar-brand text-white fs-1" href="#">A <span class="text-primary">iR</span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -254,7 +254,11 @@
             </div>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 gy-5">
                  <div class="col">
-                     <img src="IMAGES/Screen Shot 2023-09-24 at 10.45.41 AM.png" alt="" class="gallery-item image-fluid">
+                    <div>
+                       <img src="IMAGES/Screen Shot 2023-09-24 at 10.45.41 AM.png" alt="" class="gallery-item image-fluid"> 
+                    </div>
+                     
+                     
                  </div>
                 <div class="col">
                     <img src="IMAGES//Screen Shot 2023-09-24 at 10.44.14 AM.png" alt="" class="gallery-item image-fluid">
@@ -274,6 +278,93 @@
             </div>
         </section>
     <!-- portfolio ends -->
+
+    <!-- modal start  -->
+
+<div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+               <img src="IMAGES/IMG_0533_2-removebg-preview.png" alt="" class="modal-img img-fluid"> 
+            </div>
+        </div>
+    </div>
+</div>
+     <!-- modal ends -->
+
+    
+
+
+    <!-- contact start -->
+     <section id="contact">
+        <div class="section-title">
+            <h3 class="text-center fw-bold main-title">Contact</h3>
+        </div>
+        <div class="row gx-5">
+            <div class="col-lg-6 text-center">
+                <div class="contact-bg d-flex flex-column justify-content-center rounded-2">
+                    <h5 class="py-3">You can contact me from the dialog box</h5>
+                    <div class="contact-info d-flex flex-column gap-2 text-center">
+                        <a href="tel:+2347061366051" class="text-white"><i class="bi bi-telephone-fill me-3"></i>+2347061366051</a>
+                        <a href="mailto:ridwaninaolaji@gmail.com" class="text-white"><i
+                                class="bi bi-envelope-fill me-3"></i>ridwaninaolaji@gmail.com</a>
+                        <a href="#" class="text-white"><i class="bi bi-geo-alt-fill me-3"></i>Nigeria</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mt-4">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="Name" placeholder="Your Name and Surname">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="email" placeholder="Your Email Address">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="SubjectText " placeholder="subject">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" placeholder="Enter Your Message" id="floatingTextarea" rows="11"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+           
+        </div>
+        
+     </section>
+
+    <!-- contact ends -->
+
+
+    <!-- footer starts -->
+
+
+     <footer class="mt-5 py-5">
+        <div class="container">
+            <div class="footer-logo text-center">
+            <a class="navbar-brand text-white img-fluid fs-1" href="#">A <span class="text-primary">iR</span></a>
+            </div>
+            <div class="footer-social d-flex justify-content-center gap-3 text-center mt-3 ">
+                <a href="https://wwww.facebook.com" class="text-white "><i class="bi bi-facebook"></i></a>
+                <a href="https://wwww.linkedin.com" class="text-white "><i class="bi bi-linkedin"></i></a>
+                <a href="https://wwww.instagram.com" class="text-white "><i class="bi bi-instagram"></i></a>
+                <a href="https://wwww.github.com" class="text-white "><i class="bi bi-github"></i></a>
+            </div>
+            <div class="footer-copywrite text-center mt-3 mt-lg-2">
+                <p>Copyright 2023 Air | powered by Adewale Inaolaji Ridwan</p>
+            </div>
+        </div>
+     </footer>
+
+
+
+    <!-- footer ends -->
 
 
     <!-- typed js  -->

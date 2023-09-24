@@ -177,8 +177,38 @@ section{
         object-fit: cover ;
 }
 
-
-
-
+#gallery-modal .modal-img {
+    width: 100%;
+}
 
 /* portfolio section end */
+
+/* contact section start */
+
+.contact-bg {
+    background-color: var(--secondaryColor);
+    height: 70vh;
+    padding: 50px;
+}
+
+/* form input, textarea {
+    color: var(--textColor)!important;
+    background-color: var(--primaryColor)!important;
+    border: 3px solid var(--gray)!important;
+} */
+
+.form-control::placeholder {
+    color: rgba(231, 230, 230, 0.967);
+}
+
+
+@media screen and (max-width:974px) {
+.contact-bg {
+    height: 40vh;
+    
+}
+}
+
+
+
+/* contact section end */
