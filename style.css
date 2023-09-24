@@ -132,3 +132,53 @@ section{
     }
 
 /*About ends*/
+
+
+/* skills section start */
+.skills {
+    background-color: var(--gray);
+    border-radius: 7px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+        box-shadow: 0px 30px 45px rgba(22, 22, 22, 0.15);
+        cursor:  pointer;
+        transition: all .40s;
+            -webkit-transform: all .40s;
+            -moz-transform: all .40s;
+            -ms-transfrom: all .40s;
+            -o-transaform: all .40s;
+}
+
+.skills:hover {
+    transform: scale(1.12) rotate(-5deg);
+        -webkit-transform: scale(1.12) rotate(-5deg);
+        -moz-transform: scale(1.12) rotate(-5deg);
+        -ms-transfrom: scale(1.12) rotate(-5deg);
+        -o-transaform: scale(1.12) rotate(-5deg);
+        box-shadow: 0px 10px 25px 10px rgba(9, 132, 206, 40);
+}
+
+
+
+/* skills section end */
+
+/* portfolio section start */
+#portfolio img {
+    width: 100%;
+    height: 350px;
+    cursor: pointer;
+    border-radius: 7px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+        object-fit: cover ;
+}
+
+
+
+
+
+/* portfolio section end */
