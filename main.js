@@ -1,6 +1,6 @@
 
 const typed = new Typed('.typer', {
-  strings: ['Web Developer.' ],
+  strings: ['Inaolaji A. Ridwan.' ],
   typeSpeed: 100,
   backspeed: 100,
   loop: true
