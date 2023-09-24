@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,500&display=swap');
+
+:root {
+    --primaryColor: #101820;
+    --secondaryColor: #009bf9;
+    --textColor: #f2faff;
+    --gray: rgba(42, 53, 62,0.4);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    border: none;
+    list-style: none;
+}
+
+#body {
+    font-family: 'open san', 'open san-serif';
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+    background: var(--primaryColor);
+    color: var(--textColor);
+}
+
+#mainNavbar {
+    background-color: var(--primaryColor)!important;
+    border-bottom: 1px solid var(--gray);
+}
+
+#mainNavbar .nav-item .nav-link {
+    position: relative;
+    color: var(--textColor);
+}
+
+#mainNavbar .nav-item .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0 ;
+    height: 2px;
+    background-color: var(--secondaryColor);
+    bottom: -3px;
+    left: 0;
+    transition: ease .40s;
+    -webkit-transition: ease .40s;
+    -moz-transition: ease .40s;
+    -ms-transition: ease .40s;
+    -o-transition: ease .40s;
+}
+
+#mainNavbar .nav-item:not(:last-child) .nav-link:hover::after {
+    width: 100%;
+}
+
+.navbar-toggle:focus,
+.navbar-toggle:active,
+.navbar-toggle-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
