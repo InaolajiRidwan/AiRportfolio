@@ -3,19 +3,7 @@
 var sunDisplay= document.getElementById('sun');
 var moonDisplay = document.getElementById('moon');
 
-moonDisplay.style.display='none'
 
-sunDisplay.onclick = function() {
-    sunDisplay.style.display="none";
-    document.querySelector('body').style.backgroundColor="white";
-    moonDisplay.style.display="block";
-
-    moonDisplay.onclick = function(){
-      sunDisplay.style.display="block";
-      document.querySelector('body').style.backgroundColor="black";
-      moonDisplay.style.display="none"; 
-    }
-}
 
 const typed = new Typed('.typer', {
   strings: ['Inaolaji A. Ridwan.' ],
@@ -32,4 +20,19 @@ document.addEventListener("click", function(e) {
         const myModal = new bootstrap.Modal(document.getElementById("gallery-modal"));
         myModal.show();
     }
-})
+});
+
+
+moonDisplay.style.display='none'
+
+sunDisplay.onclick = function() {
+    sunDisplay.style.display="none";
+    document.querySelector('body').style.backgroundColor="white";
+    moonDisplay.style.display="block";
+
+    moonDisplay.onclick = function(){
+      sunDisplay.style.display="block";
+      document.querySelector('body').style.backgroundColor="black";
+      moonDisplay.style.display="none"; 
+    }
+}
