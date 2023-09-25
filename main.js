@@ -6,7 +6,7 @@ var moonDisplay = document.getElementById('moon');
 
 
 const typed = new Typed('.typer', {
-  strings: ['Inaolaji A. Ridwan.' ],
+  strings: ['Inaolaji Ridwan' ],
   typeSpeed: 100,
   backspeed: 100,
   loop: true
