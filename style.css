@@ -107,10 +107,10 @@ section{
 
 #hero .social a {
     transition: all .4s;
-    -webkit-transform: all .4s;
-    -moz-transform: all .4s;
-    -ms-transfrom: all .4s;
-     -o-transaform: all .4s;
+        -webkit-transform: all .4s;
+        -moz-transform: all .4s;
+        -ms-transfrom: all .4s;
+         -o-transaform: all .4s;
     color: var(--secondaryColor);
 }
 
