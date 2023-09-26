@@ -3,18 +3,33 @@
 var sunDisplay= document.getElementById('sun');
 var moonDisplay = document.getElementById('moon');
 
-moonDisplay.style.display='none'
+sunDisplay.style.display="none";
 
-sunDisplay.onclick = function() {
+
+moonDisplay.onclick = function() {
+  moonDisplay.style.display='none';
+  document.getElementById('body').style.backgroundColor="black";
+  sunDisplay.style.display="block";
+  document.getElementById('body').style.color="white";
+  document.querySelector(".navbar-brand").style.color="white";
+
+  document.getElementById("jj").style.color="white";
+  document.getElementById("jj1").style.color="white";
+  document.getElementById("jj2").style.color="white";
+  document.getElementById("jj3").style.color="white";
+  
+
+  sunDisplay.onclick = function() {
+    moonDisplay.style.display='block';
+    document.getElementById('body').style.backgroundColor="rgba(105, 104, 104, 0.486)";
     sunDisplay.style.display="none";
-    document.querySelector('body').style.backgroundColor="white";
-    moonDisplay.style.display="block";
+    document.getElementById('body').style.color="black";
+    
+  }
 
-    moonDisplay.onclick = function(){
-      sunDisplay.style.display="block";
-      document.querySelector('body').style.backgroundColor="black";
-      moonDisplay.style.display="none"; 
-    }
+  
+
+  
 }
 
 const typed = new Typed('.typer', {
