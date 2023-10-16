@@ -11,17 +11,18 @@ moonDisplay.onclick = function() {
   document.getElementById('body').style.backgroundColor="black";
   sunDisplay.style.display="block";
   document.getElementById('body').style.color="white";
-  document.querySelector(".navbar-brand").style.color="white";
+  document.querySelector(".navbar-brand").style.color="black";
 
-  document.getElementById("jj").style.color="white";
-  document.getElementById("jj1").style.color="white";
-  document.getElementById("jj2").style.color="white";
-  document.getElementById("jj3").style.color="white";
+  document.getElementById("jj").style.color="black";
+  document.getElementById("jj1").style.color="black";
+  document.getElementById("jj2").style.color="black";
+  document.getElementById("jj3").style.color="black";
   
 
   sunDisplay.onclick = function() {
     moonDisplay.style.display='block';
-    document.getElementById('body').style.backgroundColor="rgba(105, 104, 104, 0.486)";
+    document.getElementById('body').style.backgroundColor="white";
+    document.getElementById("logoA").style.color="black"
     sunDisplay.style.display="none";
     document.getElementById('body').style.color="black";
     

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,500&display=swap');
 
 :root {
-    --primaryColor: rgba(105, 104, 104, 0.486);
+    --primaryColor: white;
     --secondaryColor: green;
     --textColor: black;
     --gray: rgba(42, 53, 62,0.4);
