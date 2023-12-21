@@ -170,7 +170,7 @@ section{
         -moz-border-radius: 7px;
         -ms-border-radius: 7px;
         -o-border-radius: 7px;
-        box-shadow: 0px 30px 45px rgba(22, 22, 22, 0.807);
+        box-shadow: 0px 30px 45px rgba(165, 201, 127, 0.807);
         cursor:  pointer;
         transition: all .40s;
             -webkit-transform: all .40s;
@@ -185,7 +185,7 @@ section{
         -moz-transform: scale(1.12) rotate(-5deg);
         -ms-transfrom: scale(1.12) rotate(-5deg);
         -o-transaform: scale(1.12) rotate(-5deg);
-        box-shadow: 0px 10px 25px 10px rgba(110, 3, 110, 40);
+        box-shadow: 0px 10px 25px 10px rgba(133, 245, 13, 0.807);
 }
 
 
