@@ -7,7 +7,7 @@ moonDisplay.onclick = function () {
   moonDisplay.style.display = "none";
   document.getElementById("body").style.backgroundColor = "darkseagreen";
   sunDisplay.style.display = "block";
-  document.getElementById("body").style.color = "black";
+  document.getElementById("body").style.color = "white";
   document.querySelector(".navbar-brand").style.color = "black";
 
   document.getElementById("jj").style.color = "black";
@@ -17,7 +17,7 @@ moonDisplay.onclick = function () {
 
   sunDisplay.onclick = function () {
     moonDisplay.style.display = "block";
-    document.getElementById("body").style.backgroundColor = "darkgray";
+    document.getElementById("body").style.backgroundColor = "white";
     document.getElementById("logoA").style.color = "black";
     sunDisplay.style.display = "none";
     document.getElementById("body").style.color = "black";

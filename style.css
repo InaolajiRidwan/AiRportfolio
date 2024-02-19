@@ -21,12 +21,12 @@
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 5.5rem;
-  background: darkgray;
+  background: var(--primaryColor);
   color: var(--textColor);
 }
 
 #mainNavbar {
-  background-color: var(--primaryColor) !important;
+  background-color: darkgrey !important;
   border-bottom: 1px solid var(--gray);
 }
 
@@ -210,6 +210,10 @@ section {
   background-color: var(--secondaryColor);
   height: 70vh;
   padding: 50px;
+}
+
+a:hover {
+  font-size: 20px;
 }
 
 /* form input, textarea {
