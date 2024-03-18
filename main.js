@@ -5,7 +5,7 @@ sunDisplay.style.display = "none";
 
 moonDisplay.onclick = function () {
   moonDisplay.style.display = "none";
-  document.getElementById("body").style.backgroundColor = "darkseagreen";
+  document.getElementById("body").style.backgroundColor = "rgb(43, 43, 43)";
   sunDisplay.style.display = "block";
   document.getElementById("body").style.color = "white";
   document.querySelector(".navbar-brand").style.color = "black";
@@ -14,6 +14,7 @@ moonDisplay.onclick = function () {
   document.getElementById("jj1").style.color = "black";
   document.getElementById("jj2").style.color = "black";
   document.getElementById("jj3").style.color = "black";
+ 
 
   sunDisplay.onclick = function () {
     moonDisplay.style.display = "block";
