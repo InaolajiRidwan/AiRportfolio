@@ -5,10 +5,13 @@ sunDisplay.style.display = "none";
 
 moonDisplay.onclick = function () {
   moonDisplay.style.display = "none";
-  document.getElementById("body").style.backgroundColor = "rgb(43, 43, 43)";
+  document.getElementById("body").style.backgroundColor = "rgb(72, 72, 72)";
   sunDisplay.style.display = "block";
   document.getElementById("body").style.color = "white";
   document.querySelector(".navbar-brand").style.color = "black";
+ 
+  
+ 
 
   document.getElementById("jj").style.color = "black";
   document.getElementById("jj1").style.color = "black";

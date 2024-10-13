@@ -2,7 +2,7 @@
 
 :root {
   --primaryColor: white;
-  --secondaryColor: rgb(152, 6, 152);
+  --secondaryColor: rgb(31, 132, 31);
   --textColor: black;
   --gray: rgba(42, 53, 62, 0.4);
 }
@@ -26,8 +26,7 @@
 }
 
 #mainNavbar {
-  /* background-color: rgb(202, 169, 203) !important; */
-  /* border-bottom: 1px solid var(--gray); */
+  background-color: green;
 }
 
 #mainNavbar .nav-item .nav-link {
@@ -140,7 +139,7 @@ section {
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
-  box-shadow: 0px 30px 45px rgba(22, 22, 22, 0.15);
+  /* box-shadow: 0px 30px 45px rgba(142, 243, 102, 0.543); */
 }
 
 .exp-number {
@@ -158,7 +157,7 @@ section {
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
-  box-shadow: 0px 30px 45px rgba(152, 6, 152);
+  /* box-shadow: 0px 30px 45px rgb(63, 210, 55); */
   cursor: pointer;
   transition: all 0.4s;
   -webkit-transform: all 0.4s;
@@ -173,7 +172,7 @@ section {
   -moz-transform: scale(1.12) rotate(-5deg);
   -ms-transfrom: scale(1.12) rotate(-5deg);
   -o-transaform: scale(1.12) rotate(-5deg);
-  box-shadow: 0px 10px 25px 10px rgb(152, 6, 152);
+  box-shadow: 0px 10px 25px 10px rgb(145, 224, 145);
 }
 
 .row img {
