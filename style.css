@@ -17,12 +17,13 @@
 }
 
 #body {
-  font-family: "open san", "open san-serif";
+  font-family: "poppins", "open san-serif";
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 5.5rem;
   background: var(--primaryColor);
   color: var(--textColor);
+
 }
 
 #mainNavbar {
@@ -241,3 +242,7 @@ a:hover {
 }
 
 /* contact section end */
+
+
+
+
